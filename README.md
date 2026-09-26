@@ -14,7 +14,7 @@ El archivo principal del proyecto es:
 arreglo_tarea.py
 ```
 El programa cuenta con un menú interactivo que permite al usuario registrar, buscar, eliminar y visualizar las ventas.
----
+
 ##  Objetivo
 
 El objetivo de este proyecto es practicar el uso de **arreglos bidimensionales en Python**, además de aplicar diferentes conceptos básicos de programación como:
@@ -74,9 +74,6 @@ Las filas representan los meses y las columnas representan los departamentos.
 | Diciembre  |    0 |        0 |          0 |
 
 Los valores comienzan en `0` porque inicialmente no hay ninguna venta registrada.
-
----
-
 #  Lista de meses
 
 El programa también utiliza una lista llamada `meses` para almacenar los nombres de los 12 meses:
@@ -132,7 +129,7 @@ Cada departamento corresponde a una columna del arreglo:
 |      1 | Deportes     |
 |      2 | Juguetería   |
 
----
+
 
 #  1. Insertar una venta
 
@@ -201,8 +198,6 @@ Esto significa:
 
 **Enero → Ropa → $1500**
 
----
-
 #  2. Buscar una venta
 
 La función:
@@ -238,8 +233,6 @@ Departamento: Ropa
 Venta: $1500.0
 ```
 
----
-
 # 🗑️ 3. Eliminar una venta
 
 La función:
@@ -266,7 +259,6 @@ En este programa, `0` representa que no existe una venta registrada en esa posic
 
 Finalmente, el programa muestra la venta que fue eliminada.
 
----
 
 #  4. Mostrar todas las ventas
 
@@ -314,8 +306,6 @@ Donde:
 [2] → Juguetería
 ```
 
----
-
 #  5. Menú principal
 
 El programa utiliza un ciclo `while` para mantener activo el menú:
@@ -360,7 +350,6 @@ elif opcion == "5":
 
 La instrucción `break` permite salir del ciclo `while` y finalizar el programa.
 
----
 
 #  Conceptos de programación utilizados
 
@@ -482,7 +471,6 @@ ventas[0][0] = 1500
 
 Después podemos utilizar la opción `4` para mostrar todas las ventas y comprobar que la información fue almacenada correctamente.
 
----
 
 #  Cómo ejecutar el programa
 
@@ -506,8 +494,6 @@ En algunos equipos puede ser necesario utilizar:
 python3 arreglo_tarea.py
 ```
 
----
-
 #  Estructura del repositorio
 
 ```text
@@ -518,15 +504,13 @@ estructura/
 └── README.md
 ```
 
-### 📄 arreglo_tarea.py
+###  arreglo_tarea.py
 
 Contiene el código fuente del programa.
 
-### 📄 README.md
+###  README.md
 
 Contiene la documentación y explicación del proyecto.
-
----
 
 #  Conclusión
 
@@ -540,14 +524,8 @@ El programa cuenta con un menú interactivo que permite **insertar, buscar, elim
 
 Este ejercicio ayuda a comprender de manera práctica cómo funcionan los **arreglos bidimensionales en Python** y cómo pueden utilizarse para organizar información.
 
----
-
-# 👩‍💻 Autora
+#  Autora
 
 **Abigail Chel**
-
-Proyecto académico desarrollado en **Python**.
-
----
 
  **Gracias por visitar este repositorio.**
