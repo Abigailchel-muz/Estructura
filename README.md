@@ -29,8 +29,6 @@ El objetivo de este proyecto es practicar el uso de **arreglos bidimensionales e
 * Índices
 * Manejo de valores numéricos
 
----
-
 ## Estructura del arreglo
 
 El programa utiliza un arreglo bidimensional llamado `ventas`.
@@ -108,7 +106,7 @@ corresponde a:
 ```text
 Enero
 ```
----
+
 #  Lista de departamentos
 
 Los departamentos se almacenan en otra lista:
